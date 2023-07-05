@@ -42,6 +42,11 @@ python <application file path>
 
 4. Access the chatbot through your web browser at `http://127.0.0.1:7860/` and start interacting with it.
 
+
+<img width="952" alt="image" src="https://github.com/LeonRomo/chatbot-playground/assets/48680199/e8ca5c69-e097-4be6-835a-7b52e4ba5a61">
+
+
+
 ## Contributions
 
 Contributions to the Student Well-being Chatbot project are welcome! If you would like to contribute that would be awesome. 
