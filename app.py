@@ -1,10 +1,11 @@
 import openai
 import gradio as gr
+from gradio_client import Client
 
 openai.api_key = "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"
 
 messages = [
-    {"role": "system", "content": "You are a helpful and kind AI Assistant."},
+    {"role": "system", "content": "You are an AI specialized in student-well being."},
 ]
 
 def chatbot(input):
@@ -21,5 +22,13 @@ inputs = gr.inputs.Textbox(lines=7, label="Chat with AI")
 outputs = gr.outputs.Textbox(label="Reply")
 
 gr.Interface(fn=chatbot, inputs=inputs, outputs=outputs, title="AI Chatbot",
-             description="Ask anything you want",
+             description="Hey, ask me anything :)",
              theme="compact").launch(share=True)
+
+client = Client("http://127.0.0.1:7860/")
+result = client.predict(
+    "Hello", # str in 'Chat with AI' Textbox component
+    api_name="/predict"
+)
+
+print(result)
