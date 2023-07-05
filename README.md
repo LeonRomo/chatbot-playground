@@ -42,8 +42,8 @@ python <application file path>
 
 4. Access the chatbot through your web browser at `http://127.0.0.1:7860/` and start interacting with it.
 
+<img width="956" alt="Screenshot 2023-07-05 163806" src="https://github.com/LeonRomo/chatbot-playground/assets/48680199/2a48d748-62ac-414d-b5ec-13e10154f725">
 
-<img width="952" alt="image" src="https://github.com/LeonRomo/chatbot-playground/assets/48680199/e8ca5c69-e097-4be6-835a-7b52e4ba5a61">
 
 
 
